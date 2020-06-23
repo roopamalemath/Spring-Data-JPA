@@ -15,3 +15,12 @@ Spring Data JPA provide default implementation with the help of EntityManager so
  findAll()
  save()
  deleteById()
+ 
+ create the bean class with all required properties
+@Entity - storing the object into the database
+@GeneratedValue - for every insert operation it will generate the id
+@Column - name of the column in tha database
+@Max - maximum value 
+@Min - Minimum Value
+@Table - name of the table in the database
+
